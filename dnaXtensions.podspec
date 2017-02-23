@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'dnaXtensions'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of dnaXtensions.'
+  s.version          = '0.1.1'
+  s.summary          = 'Useful Swift iOS extensions.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/dan_isacson@hotmail.com/dnaXtensions'
+  s.homepage         = 'https://github.com/aborren/dnaXtensions'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'dan_isacson@hotmail.com' => 'dan@themobilelife.com' }
-  s.source           = { :git => 'https://github.com/dan_isacson@hotmail.com/dnaXtensions.git', :tag => s.version.to_s }
+  s.author           = { 'Dan Isacson' => 'dan_isacson@hotmail.com' }
+  s.source           = { :git => 'https://github.com/aborren/dnaXtensions.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

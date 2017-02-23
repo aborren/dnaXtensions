@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import dnaXtensions
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lightLabel: UILabel!
+    @IBOutlet weak var baseLabel: UILabel!
+    @IBOutlet weak var darkLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        lightLabel.backgroundColor = baseLabel.backgroundColor?.lighter()
+        darkLabel.backgroundColor = baseLabel.backgroundColor?.darker()
     }
 
     override func didReceiveMemoryWarning() {

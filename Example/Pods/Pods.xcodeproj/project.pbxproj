@@ -14,8 +14,11 @@
 		61DB0123D556AD8398527866B301B7EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		6ED7D923D629B88251B2389EF956A5C8 /* dnaXtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0F25E8EF67D795959AD3CC8C77923 /* dnaXtensions-dummy.m */; };
 		7B99865D1196D6CE138C9789D4FAAA4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		A12378BA28B364566F7ADB92F511B96F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C284AA86193D4CE796468DA0FF4DD6 /* ReplaceMe.swift */; };
 		A2EC4F291E5F273F0050702B /* UIColor+dnaXtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EC4F281E5F273F0050702B /* UIColor+dnaXtensions.swift */; };
+		A2EC4F2B1E5F44360050702B /* String+dnaXtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EC4F2A1E5F44360050702B /* String+dnaXtensions.swift */; };
+		A2EC4F2F1E5F49ED0050702B /* UIViewController+dnaXtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EC4F2E1E5F49ED0050702B /* UIViewController+dnaXtensions.swift */; };
+		A2EC4F311E5F4C8E0050702B /* Date+dnaXtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EC4F301E5F4C8E0050702B /* Date+dnaXtensions.swift */; };
+		A2EC4F331E5F4E080050702B /* UIView+dnaXtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EC4F321E5F4E080050702B /* UIView+dnaXtensions.swift */; };
 		B4F26EFA4975B85AD6B8A35D7FD8C443 /* Pods-dnaXtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1834C4E660166CAC90E11DE00223DD /* Pods-dnaXtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5D6B1398C661874380BE544019512F3 /* Pods-dnaXtensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2E8DDB4C97314B210C14A57631250E /* Pods-dnaXtensions_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -53,6 +56,10 @@
 		95D26A6FA92E5489F95461E1821CDB9E /* dnaXtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = dnaXtensions.modulemap; sourceTree = "<group>"; };
 		99CF2713FE75BB2241D2A592128FCE19 /* Pods-dnaXtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-dnaXtensions_Tests.modulemap"; sourceTree = "<group>"; };
 		A2EC4F281E5F273F0050702B /* UIColor+dnaXtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+dnaXtensions.swift"; sourceTree = "<group>"; };
+		A2EC4F2A1E5F44360050702B /* String+dnaXtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+dnaXtensions.swift"; sourceTree = "<group>"; };
+		A2EC4F2E1E5F49ED0050702B /* UIViewController+dnaXtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+dnaXtensions.swift"; sourceTree = "<group>"; };
+		A2EC4F301E5F4C8E0050702B /* Date+dnaXtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+dnaXtensions.swift"; sourceTree = "<group>"; };
+		A2EC4F321E5F4E080050702B /* UIView+dnaXtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+dnaXtensions.swift"; sourceTree = "<group>"; };
 		B556CD953C5F422252B18B58923FA960 /* Pods-dnaXtensions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dnaXtensions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B74B2C368D027CE30E55E7EF391E7314 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAC31F0D39A82333B3AD4F0F263A0404 /* Pods-dnaXtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dnaXtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,7 +69,6 @@
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D0D0F25E8EF67D795959AD3CC8C77923 /* dnaXtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "dnaXtensions-dummy.m"; sourceTree = "<group>"; };
 		DAC57323E76AE50FFBDA8032F071861C /* dnaXtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = dnaXtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2C284AA86193D4CE796468DA0FF4DD6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		E3DC0F163D474419E4A9EAFE4196D205 /* dnaXtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dnaXtensions.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,8 +197,11 @@
 		CC997625207FA4BC604E4B131775BB62 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E2C284AA86193D4CE796468DA0FF4DD6 /* ReplaceMe.swift */,
 				A2EC4F281E5F273F0050702B /* UIColor+dnaXtensions.swift */,
+				A2EC4F2A1E5F44360050702B /* String+dnaXtensions.swift */,
+				A2EC4F2E1E5F49ED0050702B /* UIViewController+dnaXtensions.swift */,
+				A2EC4F301E5F4C8E0050702B /* Date+dnaXtensions.swift */,
+				A2EC4F321E5F4E080050702B /* UIView+dnaXtensions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -356,8 +365,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2EC4F2F1E5F49ED0050702B /* UIViewController+dnaXtensions.swift in Sources */,
+				A2EC4F2B1E5F44360050702B /* String+dnaXtensions.swift in Sources */,
 				6ED7D923D629B88251B2389EF956A5C8 /* dnaXtensions-dummy.m in Sources */,
-				A12378BA28B364566F7ADB92F511B96F /* ReplaceMe.swift in Sources */,
+				A2EC4F311E5F4C8E0050702B /* Date+dnaXtensions.swift in Sources */,
+				A2EC4F331E5F4E080050702B /* UIView+dnaXtensions.swift in Sources */,
 				A2EC4F291E5F273F0050702B /* UIColor+dnaXtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

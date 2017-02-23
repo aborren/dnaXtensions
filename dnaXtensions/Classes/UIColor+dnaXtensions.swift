@@ -10,12 +10,12 @@ import UIKit
 extension UIColor {
     
     /// Returns a lighter version of the color. *Optional*: Specify an amount between 0.0 and 1.0.
-    func lighter(_ amount : CGFloat = 0.25) -> UIColor {
+    public func lighter(_ amount : CGFloat = 0.25) -> UIColor {
         return hueColorWithBrightnessAmount(1 + amount)
     }
     
     /// Returns a darker version of the color. *Optional*: Specify an amount between 0.0 and 1.0.
-    func darker(_ amount : CGFloat = 0.25) -> UIColor {
+    public func darker(_ amount : CGFloat = 0.25) -> UIColor {
         return hueColorWithBrightnessAmount(1 - amount)
     }
     

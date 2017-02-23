@@ -16,6 +16,29 @@ Returns a lighter version of the color. Optional: Specify an amount between 0.0 
 darker
 Returns a darker version of the color. Optional: Specify an amount between 0.0 and 1.0.
 
+String:
+
+localized
+Shorthand way to get localized string with added functionality to fetch another preferred language.
+
+contains
+
+UIViewController:
+
+removeNavigationBarHairLine
+restoreNavigationBarHairLine
+addTapToDismissKeyboardGesture
+dismissKeyboard
+
+Date:
+isEqualToDateIgnoringTime
+isToday
+isTomorrow
+isYesterday
+
+UIView:
+getImageFromView
+
 ## Requirements
 
 Requires iOS8 or later.
