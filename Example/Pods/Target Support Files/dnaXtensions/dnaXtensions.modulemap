@@ -1,0 +1,6 @@
+framework module dnaXtensions {
+  umbrella header "dnaXtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

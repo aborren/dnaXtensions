@@ -1,0 +1,22 @@
+{
+  "name": "dnaXtensions",
+  "version": "0.1.0",
+  "summary": "A short description of dnaXtensions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dan_isacson@hotmail.com/dnaXtensions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dan_isacson@hotmail.com": "dan@themobilelife.com"
+  },
+  "source": {
+    "git": "https://github.com/dan_isacson@hotmail.com/dnaXtensions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "dnaXtensions/Classes/**/*"
+}

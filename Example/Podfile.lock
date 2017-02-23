@@ -1,0 +1,16 @@
+PODS:
+  - dnaXtensions (0.1.0)
+
+DEPENDENCIES:
+  - dnaXtensions (from `../`)
+
+EXTERNAL SOURCES:
+  dnaXtensions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  dnaXtensions: ee88b559185948f1b23c01dcfe1ada16bc741aa4
+
+PODFILE CHECKSUM: 084bd3f932c3599bcec219438b82796596e39752
+
+COCOAPODS: 1.2.0
