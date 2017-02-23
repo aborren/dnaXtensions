@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'dnaXtensions_Example' do
+  pod 'dnaXtensions', :path => '../'
+
+  target 'dnaXtensions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
