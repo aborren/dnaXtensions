@@ -27,10 +27,10 @@ pod 'dnaXtensions'
 ### UIColor:
 
 ##### lighter
-> Returns a lighter version of the color. Optional: Specify an amount between 0.0 and 1.0.
+> Returns a lighter version of the color. Also possible to specify an amount between 0.0 and 1.0.
 
 ##### darker
-> Returns a darker version of the color. Optional: Specify an amount between 0.0 and 1.0.
+> Returns a darker version of the color. Also possible to specify an amount between 0.0 and 1.0.
 
 ### String:
 
@@ -38,7 +38,7 @@ pod 'dnaXtensions'
 > Shorthand way to get localized string with added functionality to fetch another preferred language.
 
 ##### contains
-> Method to check if the String contains the input String.
+> Method to check if the string contains the input string.
 
 ### UIViewController:
 
@@ -49,10 +49,10 @@ pod 'dnaXtensions'
 > Restores the navigation hairline to the default setting.
 
 ##### addTapToDismissKeyboardGesture
-> Adds a tap gesture to the view controller's view that dismisses any keyboard on tap.
+> Adds a tap gesture to the view controller's view that dismisses any input views on tap.
 
 ##### dismissKeyboard
-> Removes any input options
+> Removes any input views.
 
 ### Date:
 
@@ -71,7 +71,7 @@ pod 'dnaXtensions'
 ### UIView:
 
 ##### getImageFromView
-> Returns and UIImage of the view.
+> Returns an UIImage of the view.
 
 
 ## Author
