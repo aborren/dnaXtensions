@@ -25,9 +25,4 @@ extension String {
         return bundle.localizedString(forKey: self, value: nil, table: tableName)
     }
     
-    
-    public func contains(_ find: String) -> Bool {
-        return self.range(of: find) != nil
-    }
-    
 }

@@ -37,9 +37,6 @@ pod 'dnaXtensions'
 ##### localized
 > Shorthand way to get localized string with added functionality to fetch another preferred language.
 
-##### contains
-> Method to check if the string contains the input string.
-
 ### UIViewController:
 
 ##### removeNavigationBarHairLine
