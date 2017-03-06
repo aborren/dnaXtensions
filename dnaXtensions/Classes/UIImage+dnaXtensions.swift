@@ -11,7 +11,7 @@ import AVFoundation
 extension UIImage {
     
     /// Returns self as a scaled image of given size.
-    func scaled(to size : CGSize, isOpaque : Bool = true) -> UIImage {
+    public func scaled(to size : CGSize, isOpaque : Bool = true) -> UIImage {
         // begin a context of the desired size
         let scaledRect = AVMakeRect(aspectRatio: self.size, insideRect: CGRect(x: 0, y: 0, width: size.width, height: size.height))
         UIGraphicsBeginImageContextWithOptions(scaledRect.size, isOpaque, 0.0)
