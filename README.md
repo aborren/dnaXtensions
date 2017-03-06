@@ -70,6 +70,11 @@ pod 'dnaXtensions'
 ##### getImageFromView
 > Returns an UIImage of the view.
 
+### UIImage:
+
+##### scaled
+> Returns self as a scaled image of given size.
+
 
 ## Author
 
