@@ -10,6 +10,15 @@ import AVFoundation
 
 extension UIImage {
     
+    public func transparentized(with alpha: CGFloat) -> UIImage {
+        UIGraphicsBeginImageContextWithOptions(size, false, scale)
+        draw(at: CGPoint.zero, blendMode: .normal, alpha: alpha)
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return newImage ?? self
+    }
+    
     /// Returns self as a scaled image of given size.
     public func scaled(to size : CGSize, isOpaque : Bool = true) -> UIImage {
         // begin a context of the desired size

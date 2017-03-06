@@ -72,6 +72,9 @@ pod 'dnaXtensions'
 
 ### UIImage:
 
+##### transparentized
+> Set an alpha value for the image.
+
 ##### scaled
 > Returns self as a scaled image of given size.
 
