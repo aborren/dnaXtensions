@@ -26,5 +26,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func alertButtonPressed(_ sender: UIButton) {
+        let alert = UIAlertController(title: "Alert!", message: "Alert message", preferredStyle: .alert)
+        alert.addAction(title: "Ok", style: .cancel) { _ in
+            print("dismissed")
+        }
+        
+        present(alert, animated: true, completion: nil)
+    }
+    
 }
 

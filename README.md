@@ -78,6 +78,10 @@ pod 'dnaXtensions'
 ##### scaled
 > Returns self as a scaled image of given size.
 
+### UIAlertController
+
+##### addAction
+> Add action with less boilerplate code using default implementation.
 
 ## Author
 
