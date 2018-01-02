@@ -11,7 +11,7 @@ Useful extensions for iOS development.
 ## Requirements
 
 * iOS8
-* Swift 3
+* Swift 4
 
 ## Installation
 

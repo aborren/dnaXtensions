@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'dnaXtensions'
-  s.version          = '0.1.5'
+  s.version          = '0.2.0'
   s.summary          = 'Useful Swift iOS extensions.'
 
 # This description is used to generate tags and improve search results.

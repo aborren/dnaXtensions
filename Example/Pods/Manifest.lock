@@ -1,5 +1,5 @@
 PODS:
-  - dnaXtensions (0.1.0)
+  - dnaXtensions (0.2.0)
 
 DEPENDENCIES:
   - dnaXtensions (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  dnaXtensions: ee88b559185948f1b23c01dcfe1ada16bc741aa4
+  dnaXtensions: 6d15af169dceddd275f2848058858e521fa8e729
 
 PODFILE CHECKSUM: 084bd3f932c3599bcec219438b82796596e39752
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.3.1
